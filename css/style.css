@@ -1,0 +1,100 @@
+#body {
+    background-color:rgb(193, 193, 112); ;
+}
+
+#titulo1, #titulo2, #titulo3, #titulo4, #titulo5 {
+    color: rgb(81, 28, 131);
+    
+}
+
+#section1{
+    background-color: rgb(193, 193, 112);
+    
+}
+
+#section2{
+    background-color: rgb(193, 193, 112);
+}
+
+#section3{
+    background-color: rgb(193, 193, 112);
+}
+
+#section4{
+    background-color: rgb(193, 193, 112);
+}
+
+#div1, #div2, #div3, #div4 
+{
+margin: auto;
+}
+
+footer a {
+    font-size: 30px; /* Tamaño del icono */
+    color: #3b5998; /* Color para el ícono de Facebook (puedes cambiar el color según desees) */
+    text-decoration: none; /* Sin subrayado */
+    margin-right: 20px; /* Espaciado entre los iconos */
+}
+
+footer a[href*="facebook"] {
+    color: #3b5998; /* Color de Facebook */
+}
+
+footer a[href*="instagram"] {
+    color: #E1306C; /* Color de Instagram */
+}
+
+footer a:hover {
+    opacity: 0.7; /* Efecto al pasar el ratón */
+}
+
+#contacto a {
+    font-size: 20px; /* Tamaño del icono */
+    color: #007bff; /* Color del icono (puedes cambiarlo a tu gusto) */
+    text-decoration: none; /* Eliminar subrayado */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#contacto a:hover {
+    color: #0056b3; /* Cambio de color al pasar el ratón */
+}
+
+#contacto i {
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+}
+
+.carrd {
+    width: 80%;                    /* El tamaño del div, puedes ajustarlo según necesites */
+    max-width: 600px;              /* Máximo tamaño para pantallas grandes */
+    padding: 20px;
+    background-color: #f0f0f0;    /* Fondo del div (opcional) */
+    border-radius: 10px;           /* Bordes redondeados (opcional) */
+}
+
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height:55px;
+    bottom:30px;
+    right: 30px;
+    background:#0df053 ;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: opx 1px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+    
+    }
+    
+    .btn-wsp:hover{
+        text-decoration: none;
+        background:#fff;
+        color: #0df053
+    
+    
+    }
