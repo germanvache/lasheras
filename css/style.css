@@ -125,3 +125,17 @@ form {
   button:hover {
     background-color: #45a049;
   }
+
+/* Reseteo de márgenes y padding */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Asegurando que las imágenes se ajusten al tamaño de la pantalla */
+img {
+    max-width: 100%;
+    height: auto;
+}
