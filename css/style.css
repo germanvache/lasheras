@@ -140,3 +140,57 @@ img {
     height: auto;
 }
 
+/* Estilos del formulario */
+form {
+    width: 100%; /* Hacer que ocupe todo el ancho disponible */
+    max-width: 500px; /* Máximo ancho para pantallas grandes */
+    margin: 0 auto; /* Centrado automático */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white; /* Fondo blanco para el formulario */
+}
+
+/* Estilos para los campos del formulario */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+/* Estilo para el botón */
+button {
+    width: 100%; /* Ancho completo */
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Media Queries para dispositivos pequeños */
+@media (max-width: 768px) {
+    form {
+        padding: 15px; /* Menos padding en pantallas pequeñas */
+        width: 90%; /* El formulario ocupará el 90% del ancho disponible */
+        max-width: none; /* Sin límite de ancho máximo */
+    }
+
+    input, textarea {
+        font-size: 14px; /* Fuente un poco más pequeña para dispositivos móviles */
+    }
+
+    button {
+        font-size: 14px; /* Reducir tamaño de la fuente en el botón */
+    }
+
+
